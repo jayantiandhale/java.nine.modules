@@ -1,3 +1,5 @@
+Most awaited feature for java 9.
+
 According to JSR 376, the key goals of modularizing the Java SE platform are -
 - Reliable configuration — Modularity provides mechanisms for explicitly declaring dependencies between modules in a manner that’s recognized both at compile time and execution time. The system can walk through these dependencies to determine the subset of all modules required to support your app.
 - Strong encapsulation — The packages in a module are accessible to other modules only if the module explicitly exports them. Even then, another module cannot use those packages unless it explicitly states that it requires the other module’s capabilities. This improves platform security because fewer classes are accessible to potential attackers. You may find that considering modularity helps you come up with cleaner, more logical designs.
@@ -7,9 +9,3 @@ According to JSR 376, the key goals of modularizing the Java SE platform are -
 
 
 
-JSR 376 goals
-- Reliable configuration
-- Strong encapsulation —
-- Scalable Java platform (runtime of 95 modules only)
-- Greater platform integrity
-- Improved performance
